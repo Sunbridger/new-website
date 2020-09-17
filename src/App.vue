@@ -21,10 +21,20 @@
 
 <script>
 
+import { get } from 'api';
+
 export default {
     name: 'app',
     created() {
         this.$router.replace('index');
+        this.trackFn();
+    },
+    methods: {
+        trackFn() {
+            get('sendmaidian', {
+                ua: navigator.userAgent
+            });
+        }
     }
 };
 
