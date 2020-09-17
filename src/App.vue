@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         trackFn() {
-            get('sendmaidian', {
+            get('/sendmaidian', {
                 ua: navigator.userAgent
             });
         }
