@@ -16,7 +16,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         filename: '[name].[hash].js',
-        path: resolve('./dist')
+        path: resolve('../dist')
     },
     resolve: {
         alias: {

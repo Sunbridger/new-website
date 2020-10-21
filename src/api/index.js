@@ -1,6 +1,6 @@
 import ajax from './ajax';
 
-const baseUrl = 'http://119.45.209.166:7001';
+const baseUrl = 'https://www.sunbridger.site/api/';
 
 export const get = (url, params = {}) => {
     return ajax({
