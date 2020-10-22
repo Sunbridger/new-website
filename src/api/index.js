@@ -1,6 +1,6 @@
 import ajax from './ajax';
 
-const baseUrl = 'https://www.sunbridger.site/api/';
+const baseUrl = 'https://www.sunbridger.site/api';
 
 export const get = (url, params = {}) => {
     return ajax({
